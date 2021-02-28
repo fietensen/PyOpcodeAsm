@@ -50,6 +50,7 @@ Python opcode assembler / Python inline-assembly
         - `code: str => instruction string to be compiled`
         - `locals: tuple => tuple of local variables defined, remember func arguments are automatically prepended`
         - `constants: tuple => tuple of constants used in function`
+        - `functions: tuple => tuple of function names accessible from the function`
         - `globals: dict => global variables the function has access to`
 
 
